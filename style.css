@@ -24,3 +24,18 @@ main{
 .logo h2{
     color: white;
 }
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: .4s ease;
+}
+
+.navbar a:hover{
+    color: gold;
+}
+
