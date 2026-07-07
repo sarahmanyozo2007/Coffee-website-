@@ -1,94 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Cart</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main>
+      <header class="header">
+        <div class="logo">
+          <h2>Bean Boutique</h2>
+        </div>
 
-        <header class="header">
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="coffee.html">Coffee</a>
+          <a href="equipment.html">Equipment</a>
+          <a href="events.html">Events</a>
+          <a href="cart.html">Cart</a>
+          <a href="offers.html">Offers</a>
+        </nav>
+      </header>
+      <section class="cart-section">
+        <div class="cart-header">
+          <h1>Shopping Cart</h1>
 
-            <div class="logo">
-                <h2>Bean Boutique</h2>
-            </div>
+          <p>Review the items you want to purchase.</p>
+        </div>
 
-            <nav class="navbar">
+        <div class="cart-wrapper">
+          <table class="cart-table">
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
 
-                <a href="index.html">Home</a>
-                <a href="coffee.html">Coffee</a>
-                <a href="equipment.html">Equipment</a>
-                <a href="events.html">Events</a>
-                <a href="cart.html">Cart</a>
-                <a href="offers.html">Offers</a>
+            <tr>
+              <td>Espresso Blend</td>
+              <td>K18,000</td>
+              <td>1</td>
+              <td>K18,000</td>
+            </tr>
+            <tr>
+              <td>French Press</td>
+              <td>K35,000</td>
+              <td>1</td>
+              <td>K35,000</td>
+            </tr>
+          </table>
+        </div>
 
-            </nav>
+        <div class="total-section">
+          <h3>Total Amount: K53,000</h3>
+        </div>
 
-        </header>
-        <section class="cart-section">
+        <div class="button-section">
+          <button>Continue Shopping</button>
 
-            <div class="cart-header">
+          <button>Checkout</button>
+        </div>
+      </section>
 
-                <h1>Shopping Cart</h1>
-
-                <p>Review the items you want to purchase.</p>
-
-            </div>
-
-            <div class="cart-wrapper">
-
-                <table class="cart-table">
-
-                    <tr>
-                        <th>Product</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Total</th>
-                    </tr>
-
-                    <tr>
-                        <td>Espresso Blend</td>
-                        <td>K18,000</td>
-                        <td>1</td>
-                        <td>K18,000</td>
-                    </tr>
-                    <tr>
-                        <td>French Press</td>
-                        <td>K35,000</td>
-                        <td>1</td>
-                        <td>K35,000</td>
-                    </tr>
-
-                </table>
-
-            </div>
-
-            <div class="total-section">
-
-                <h3>Total Amount: K53,000</h3>
-
-            </div>
-
-            <div class="button-section">
-
-                <button>Continue Shopping</button>
-
-                <button>Checkout</button>
-
-            </div>
-
-        </section>
-
-        <footer class="footer">
-
-            <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
-
-        </footer>
-
+      <footer class="footer">
+        <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
+      </footer>
     </main>
-
-</body>
+  </body>
 </html>
