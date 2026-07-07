@@ -13,3 +13,14 @@ body{
 main{
     width: 100%;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c3b28;
+    padding: 20px;
+}
+
+.logo h2{
+    color: white;
+}
