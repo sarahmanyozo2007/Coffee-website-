@@ -107,4 +107,67 @@ main{
     width: 100%;
     border-radius: 10px;
 }
+.events-wrapper{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:30px;
+}
+
+.event-card{
+    width:260px;
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.event-card img{
+    width:100%;
+    border-radius:10px;
+}
+.register-section{
+    display:flex;
+    justify-content:center;
+    padding:40px;
+}
+
+.register-wrapper{
+    width:350px;
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.register-form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.input-form{
+    display:flex;
+    flex-direction:column;
+}
+
+.input-form input{
+    padding:10px;
+}
+
+.form-btn button{
+    width:100%;
+    padding:10px;
+    background:#5c3b28;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.form-btn button:hover{
+    background:#7d553f;
+}
 
