@@ -1,119 +1,206 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bean Boutique</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <header class="header">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome to Bean Boutique</h2>
+            <p>Get 10% OFF your first purchase!</p>
+
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <button onclick="closePopup()">Sign Up</button>
+        </div>
+    </div>
+
+    <header class="header">
+
         <div class="logo">
-          <h2>Bean Boutique</h2>
+            <h2>Bean Boutique</h2>
         </div>
 
         <nav class="navbar">
-          <a href="index.html">Home</a>
-          <a href="coffee.html">Coffee</a>
-          <a href="equipment.html">Equipment</a>
-          <a href="events.html">Events</a>
-          <a href="cart.html">Cart</a>
-          <a href="offers.html">Offers</a>
+            <a href="index.html">Home</a>
+            <a href="coffee.html">Coffee</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="events.html">Events</a>
+            <a href="cart.html">Cart</a>
+            <a href="offers.html">Offers</a>
         </nav>
-      </header>
 
-      <section class="home-section">
-        <div class="home-wrapper">
-          <img
-            src="coffee pics/coffee 5.png"
-            alt="Coffee Banner"
-            class="coffee pics/coffee 12.png"
-          />
+    </header>
 
-          <h1>Welcome to Bean Boutique</h1>
+    <main>
 
-          <p>
-            Enjoy freshly roasted coffee, quality brewing equipment, and
-            exciting coffee events.
-          </p>
+        <section class="hero-section">
+
+            <div class="hero-text">
+
+                <h1>Fresh Coffee Every Day</h1>
+
+                <p>
+                    Enjoy freshly roasted coffee,
+                    quality brewing equipment and exciting events.
+                </p>
+
+                <a href="coffee.html">
+                    <button>View Coffee</button>
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img id="slide" src="coffee pics/coffee 1.png" alt="Coffee">
+
+            </div>
+
+        </section>
+
+        <section class="services">
+
+            <h2>Our Services</h2>
+
+            <div class="service-wrapper">
+
+                <div class="service-card">
+
+                    <img src="coffee pics/coffee 2.png" alt="Coffee">
+
+                    <h3>Coffee Blends</h3>
+
+                    <p>Premium coffee from around the world.</p>
+
+                    <a href="coffee.html">
+                        <button>View More</button>
+                    </a>
+
+                </div>
+
+                <div class="service-card">
+
+                    <img src="coffee pics/coffee 3.png" alt="Equipment">
+
+                    <h3>Equipment</h3>
+
+                    <p>High quality brewing equipment.</p>
+
+                    <a href="equipment.html">
+                        <button>View More</button>
+                    </a>
+
+                </div>
+
+                <div class="service-card">
+
+                    <img src="coffee pics/coffee 4.png" alt="Events">
+
+                    <h3>Events</h3>
+
+                    <p>Join our workshops and coffee tasting.</p>
+
+                    <a href="events.html">
+                        <button>View More</button>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="about">
+
+            <div class="about-image">
+
+                <img src="coffee pics/coffee 5.png" alt="Coffee">
+
+            </div>
+
+            <div class="about-text">
+
+                <h2>About Bean Boutique</h2>
+
+                <p>
+
+                    Bean Boutique is passionate about serving
+                    fresh coffee and providing the best coffee
+                    experience through premium beans,
+                    brewing equipment and exciting events.
+
+                </p>
+
+            </div>
+
+        </section>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.0025471518516!2d33.70125247369777!3d-13.958453886455269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1921d15429c1e565%3A0x21d57a1f16bc624d!2sAirwing%20Street!5e0!3m2!1sen!2smw!4v1784202854653!5m2!1sen!2smw"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
         </div>
-      </section>
-      <section class="coffee-section">
-        <h2>Featured Coffee</h2>
 
-        <div class="coffee-wrapper">
-          <div class="coffee-card">
-            <img src="coffee pics/coffee 35.png" alt="coffee" />
-            <img src="coffee pics/coffee 36.png" alt="coffee" />
-            <img src="coffee pics/coffee 2.png" alt="coffee" />
-            <img src="coffee pics/coffee 3.png" alt="coffee" />
-            <img src="coffee pics/coffee 6.png" alt="coffee" />
-            <img src="coffee pics/coffee 7.png" alt="coffee" />
+        </section>
 
-            <h3>Espresso Blend</h3>
+        <footer class="footer">
+            <footer class="footer">
+                <h2>Bean Boutique</h2>
 
-            <p>Rich flavour with chocolate notes.</p>
-          </div>
-          <div class="coffee-card">
-            <img src="coffee pics/coffee 26.png" alt="Coffee" />
-            <img src="coffee pics/coffee 25.png" alt="Coffee" />
+                <p>Fresh Coffee. Great Taste. Every Day.</p>
 
+                <div class="contact-info">
 
-            <h3>Ethiopian Coffee</h3>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+265991234567">+265 991 234 567</a>
+                    </p>
 
-            <p>Fresh aroma with fruity taste.</p>
-          </div>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:beanboutique@gmail.com">beanboutique@gmail.com</a>
+                    </p>
 
-          <div class="coffee-card">
-            <img src="coffee pics/coffee 28.png" alt="Coffee" />
-            <img src="coffee pics/coffee 27.png" alt="Coffee" />
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Lilongwe, Malawi
+                    </p>
 
+                </div>
 
-            <h3>Colombian Coffee</h3>
+                <div class="social-icons">
 
-            <p>Smooth and balanced flavour with a sweet aroma.</p>
-          </div>
-        </div>
-      </section>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
 
-      <section class="equipment-section">
-        <h2>Brewing Equipment</h2>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
 
-        <div class="equipment-wrapper">
-          <div class="equipment-card">
-            <img src="coffee pics/coffee 30.png" alt="Machine" />
-            <img src="coffee pics/coffee 29.png" alt="Machine" />
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
 
-            <h3>Espresso Machine</h3>
-          </div>
-          <div class="equipment-card">
-            <img src="coffee pics/coffee 32.png" alt="Grinder" />
-            <img src="coffee pics/coffee 31.png" alt="Grinder" />
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
 
-            <h3>Coffee Grinder</h3>
-          </div>
+                </div>
 
-          <div class="equipment-card">
-            <img src="coffee pics/coffee 33.png" alt="French Press" />
-            <img src="coffee pics/coffee 34.png" alt="French Press" />
-            
+                <p class="copyright">
+                </p>
+                <header>
+                    <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+                </header>
+            </footer>
+            <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
+        </footer>
 
-            <h3>French Press</h3>
-          </div>
-        </div>
-      </section>
-      <section class="event-section">
-        <h2>Upcoming Events</h2>
-
-        <p>Coffee Tasting - Saturday</p>
-
-        <p>Brewing Workshop - Sunday</p>
-      </section>
-
-      <footer class="footer">
-        <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
-      </footer>
     </main>
-  </body>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>

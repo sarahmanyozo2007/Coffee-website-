@@ -38,35 +38,33 @@
               <th>Total</th>
             </tr>
 
-            <tr>
-              <td>Espresso Blend</td>
-              <td>K18,000</td>
-              <td>1</td>
-              <td>K18,000</td>
-            </tr>
-            <tr>
-              <td>French Press</td>
-              <td>K35,000</td>
-              <td>1</td>
-              <td>K35,000</td>
-            </tr>
+            <tbody id="cartItems">
+            </tbody>
+            <tbody id="cartItems">
+            </tbody>
           </table>
+            
         </div>
 
         <div class="total-section">
-          <h3>Total Amount: K53,000</h3>
+          <h3 id="grandTotal">
+            Total Amount: K0
+          </h3>
         </div>
 
         <div class="button-section">
           <button>Continue Shopping</button>
 
-          <button>Checkout</button>
+          <button onclick="checkout()">
+            Checkout
+          </button>
         </div>
       </section>
 
       <footer class="footer">
         <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
       </footer>
+      <script src="script.js"></script>
     </main>
   </body>
 </html>

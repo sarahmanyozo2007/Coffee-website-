@@ -8,61 +8,22 @@
 </head>
 <body>
 
-    <main>
-
-        <header class="header">
-
-            <div class="logo">
-                <header class="header">
+    <header class="header">
 
     <div class="logo">
         <h2>Bean Boutique</h2>
     </div>
 
     <nav class="navbar">
-
         <a href="index.html">Home</a>
         <a href="coffee.html">Coffee</a>
         <a href="equipment.html">Equipment</a>
         <a href="events.html">Events</a>
         <a href="cart.html">Cart</a>
         <a href="offers.html">Offers</a>
-
     </nav>
 
 </header>
-
-            <div class="logo">
-                <h2>Bean Boutique</h2>
-            </div>
-
-            <nav class="navbar">
-
-                <a href="index.html">Home</a>
-                <a href="coffee.html">Coffee</a>
-                <a href="equipment.html">Equipment</a>
-                <a href="events.html">Events</a>
-                <a href="cart.html">Cart</a>
-                <a href="offers.html">Offers</a>
-
-            </nav>
-             <header class="header">
-
-            <div class="logo">
-                <h2>Bean Boutique</h2>
-            </div>
-
-            <nav class="navbar">
-
-                <a href="index.html">Home</a>
-                <a href="coffee.html">Coffee</a>
-                <a href="equipment.html">Equipment</a>
-                <a href="events.html">Events</a>
-                <a href="cart.html">Cart</a>
-                <a href="offers.html">Offers</a>
-
-            </nav>
-              </header>
         <section class="coffee-page">
 
             <div class="coffee-header">
@@ -78,91 +39,348 @@
                 onkeyup="searchCoffee()">
 
             </div>
-             <div class="coffee-wrapper">
+            <h2 class="section-title">Ethiopian Coffee Collection</h2>
 
-                <div class="coffee-card">
+<div class="product-grid">
 
-                    <img src="espresso.jpg" alt="Espresso">
+    <div class="product-card">
+        <img src="coffee pics/coffee 215.png" alt="Yirgacheffe">
+        <h3>Yirgacheffe</h3>
+        <p><strong>Price:</strong> K20,000</p>
+        <p>Floral and citrus flavour.</p>
+        <button onclick="addToCart('Yirgacheffe',20000)">Add to Cart</button>
+    </div>
 
-                    <h3>Espresso Blend</h3>
+    <div class="product-card">
+        <img src="coffee pics/coffee 216.png" alt="Sidamo">
+        <h3>Sidamo</h3>
+        <p><strong>Price:</strong> K20,500</p>
+        <p>Sweet berry notes.</p>
+        <button onclick="addToCart('Sidamo',20500)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Price:</strong> K18,000</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 217.png" alt="Limu">
+        <h3>Limu</h3>
+        <p><strong>Price:</strong> K21,000</p>
+        <p>Balanced and smooth.</p>
+        <button onclick="addToCart('Limu',21000)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Tasting Notes:</strong> Chocolate and caramel.</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 218.png" alt="Guji">
+        <h3>Guji</h3>
+        <p><strong>Price:</strong> K21,500</p>
+        <p>Sweet peach flavour.</p>
+        <button onclick="addToCart('Guji',21500)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Brewing:</strong> Espresso Machine.</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 219.png" alt="Harrar">
+        <h3>Harrar</h3>
+        <p><strong>Price:</strong> K22,000</p>
+        <p>Rich chocolate taste.</p>
+        <button onclick="addToCart('Harrar',22000)">Add to Cart</button>
+    </div>
 
-                </div>
+    <div class="product-card">
+        <img src="coffee pics/coffee 220.png" alt="Bale Mountain">
+        <h3>Bale Mountain</h3>
+        <p><strong>Price:</strong> K22,500</p>
+        <p>Light fruity aroma.</p>
+        <button onclick="addToCart('Bale Mountain',22500)">Add to Cart</button>
+    </div>
 
-                <div class="coffee-card">
+    <div class="product-card">
+        <img src="coffee pics/coffee 221.png" alt="Kaffa">
+        <h3>Kaffa Reserve</h3>
+        <p><strong>Price:</strong> K23,000</p>
+        <p>Earthy with spice notes.</p>
+        <button onclick="addToCart('Kaffa Reserve',23000)">Add to Cart</button>
+    </div>
 
-                    <img src="ethiopian.jpg" alt="Ethiopian Coffee">
+    <div class="product-card">
+        <img src="coffee pics/coffee 222.png" alt="Moka">
+        <h3>Ethiopian Moka</h3>
+        <p><strong>Price:</strong> K23,500</p>
+        <p>Sweet cocoa flavour.</p>
+        <button onclick="addToCart('Ethiopian Moka',23500)">Add to Cart</button>
+    </div>
 
-                    <h3>Ethiopian Coffee</h3>
+    <div class="product-card">
+        <img src="coffee pics/coffee 223.png" alt="Organic Blend">
+        <h3>Organic Blend</h3>
+        <p><strong>Price:</strong> K24,000</p>
+        <p>Fresh natural taste.</p>
+        <button onclick="addToCart('Organic Blend',24000)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Price:</strong> K20,000</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 224.png" alt="Premium Roast">
+        <h3>Premium Roast</h3>
+        <p><strong>Price:</strong> K24,500</p>
+        <p>Rich roasted flavour.</p>
+        <button onclick="addToCart('Premium Roast',24500)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Tasting Notes:</strong> Fruity and floral.</p>
-                    <p><strong>Brewing:</strong> Pour Over.</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 225.png" alt="Mountain Gold">
+        <h3>Mountain Gold</h3>
+        <p><strong>Price:</strong> K25,000</p>
+        <p>Balanced acidity.</p>
+        <button onclick="addToCart('Mountain Gold',25000)">Add to Cart</button>
+    </div>
 
-                </div>
+    <div class="product-card">
+        <img src="coffee pics/coffee 226.png" alt="Royal Ethiopia">
+        <h3>Royal Ethiopia</h3>
+        <p><strong>Price:</strong> K26,000</p>
+        <p>Premium speciality coffee.</p>
+        <button onclick="addToCart('Royal Ethiopia',26000)">Add to Cart</button>
+    </div>
 
-                <div class="coffee-card">
+</div>
+    <h2 class="section-title">Colombian Coffee Collection</h2>
 
-                    <img src="colombia.jpg" alt="Colombian Coffee">
+<div class="product-grid">
 
-                    <h3>Colombian Coffee</h3>
+    <div class="product-card">
+        <img src="coffee pics/coffee 227.png" alt="Medellin Blend">
+        <h3>Medellin Blend</h3>
+        <p><strong>Price:</strong> K19,000</p>
+        <p>Rich caramel flavour.</p>
+        <button onclick="addToCart('Medellin Blend',19000)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Price:</strong> K19,000</p>
-                    <p><strong>Tasting Notes:</strong> Nutty and smooth.</p>
-                    <p><strong>Brewing:</strong> French Press.</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 228.png" alt="Supremo">
+        <h3>Colombian Supremo</h3>
+        <p><strong>Price:</strong> K19,500</p>
+        <p>Balanced and smooth.</p>
+        <button onclick="addToCart('Colombian Supremo',19500)">Add to Cart</button>
+    </div>
 
-                </div>
+    <div class="product-card">
+        <img src="coffee pics/coffee 229.png" alt="Excelso">
+        <h3>Excelso Roast</h3>
+        <p><strong>Price:</strong> K20,000</p>
+        <p>Sweet chocolate taste.</p>
+        <button onclick="addToCart('Excelso Roast',20000)">Add to Cart</button>
+    </div>
 
-                <div class="coffee-card">
-                    <img src="brazil.jpg" alt="Brazil Coffee">
+    <div class="product-card">
+        <img src="coffee pics/coffee 230.png" alt="Huila">
+        <h3>Huila Reserve</h3>
+        <p><strong>Price:</strong> K20,500</p>
+        <p>Bright fruity aroma.</p>
+        <button onclick="addToCart('Huila Reserve',20500)">Add to Cart</button>
+    </div>
 
-                    <h3>Brazilian Coffee</h3>
+    <div class="product-card">
+        <img src="coffee pics/coffee 231.png" alt="Antioquia">
+        <h3>Antioquia Gold</h3>
+        <p><strong>Price:</strong> K21,000</p>
+        <p>Nutty with cocoa notes.</p>
+        <button onclick="addToCart('Antioquia Gold',21000)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Price:</strong> K17,500</p>
+</div>
+    <h2 class="section-title">Brazilian Coffee Collection</h2>
 
-                    <p><strong>Tasting Notes:</strong> Cocoa and roasted nuts.</p>
+<div class="product-grid">
 
-                    <p><strong>Brewing:</strong> Drip Coffee Maker.</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 237.png" alt="Brazil Santos">
+        <h3>Brazil Santos</h3>
+        <p><strong>Price:</strong> K17,500</p>
+        <p>Sweet chocolate and nutty flavour.</p>
+        <button onclick="addToCart('Brazil Santos',17500)">Add to Cart</button>
+    </div>
 
-                </div>
+    <div class="product-card">
+        <img src="coffee pics/coffee 238.png" alt="Cerrado Coffee">
+        <h3>Cerrado Coffee</h3>
+        <p><strong>Price:</strong> K18,000</p>
+        <p>Smooth body with caramel notes.</p>
+        <button onclick="addToCart('Cerrado Coffee',18000)">Add to Cart</button>
+    </div>
 
-                <div class="coffee-card">
+    <div class="product-card">
+        <img src="coffee pics/coffee 239.png" alt="Minas Blend">
+        <h3>Minas Blend</h3>
+        <p><strong>Price:</strong> K18,500</p>
+        <p>Rich cocoa and roasted nuts.</p>
+        <button onclick="addToCart('Minas Blend',18500)">Add to Cart</button>
+    </div>
 
-                    <img src="kenya.jpg" alt="Kenyan Coffee">
+    <div class="product-card">
+        <img src="coffee pics/coffee 240.png" alt="Rio Estate">
+        <h3>Rio Estate</h3>
+        <p><strong>Price:</strong> K19,000</p>
+        <p>Balanced flavour with low acidity.</p>
+        <button onclick="addToCart('Rio Estate',19000)">Add to Cart</button>
+    </div>
 
-                    <h3>Kenyan Coffee</h3>
-                    <p><strong>Price:</strong> K21,000</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 2.png" alt="Brazil Premium">
+        <h3>Brazil Premium</h3>
+        <p><strong>Price:</strong> K19,500</p>
+        <p>Premium roast with a smooth finish.</p>
+        <button onclick="addToCart('Brazil Premium',19500)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Tasting Notes:</strong> Berry and citrus.</p>
+</div>
+    <h2 class="section-title">Kenyan Coffee Collection</h2>
 
-                    <p><strong>Brewing:</strong> Chemex.</p>
+<div class="product-grid">
 
-                </div>
+    <div class="product-card">
+        <img src="coffee pics/coffee 231.png" alt="Kenya AA">
+        <h3>Kenya AA</h3>
+        <p><strong>Price:</strong> K21,000</p>
+        <p>Bright citrus flavour with rich aroma.</p>
+        <button onclick="addToCart('Kenya AA',21000)">Add to Cart</button>
+    </div>
 
-                <div class="coffee-card">
+    <div class="product-card">
+        <img src="coffee pics/coffee 232.png" alt="Nyeri Estate">
+        <h3>Nyeri Estate</h3>
+        <p><strong>Price:</strong> K21,500</p>
+        <p>Sweet berry notes with balanced acidity.</p>
+        <button onclick="addToCart('Nyeri Estate',21500)">Add to Cart</button>
+    </div>
 
-                    <img src="decaf.jpg" alt="Decaf Coffee">
+    <div class="product-card">
+        <img src="coffee pics/coffee 233.png" alt="Mount Kenya">
+        <h3>Mount Kenya</h3>
+        <p><strong>Price:</strong> K22,000</p>
+        <p>Rich chocolate flavour and smooth finish.</p>
+        <button onclick="addToCart('Mount Kenya',22000)">Add to Cart</button>
+    </div>
 
-                    <h3>Decaf Coffee</h3>
+    <div class="product-card">
+        <img src="coffee pics/coffee 234.png" alt="Kirinyaga Blend">
+        <h3>Kirinyaga Blend</h3>
+        <p><strong>Price:</strong> K22,500</p>
+        <p>Fresh fruity aroma with caramel notes.</p>
+        <button onclick="addToCart('Kirinyaga Blend',22500)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Price:</strong> K18,500</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 235.png" alt="Kenya Peaberry">
+        <h3>Kenya Peaberry</h3>
+        <p><strong>Price:</strong> K23,000</p>
+        <p>Full-bodied coffee with sweet finish.</p>
+        <button onclick="addToCart('Kenya Peaberry',23000)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Tasting Notes:</strong> Mild and sweet.</p>
+    <div class="product-card">
+        <img src="coffee pics/coffee 236.png" alt="Highland Roast">
+        <h3>Highland Roast</h3>
+        <p><strong>Price:</strong> K23,500</p>
+        <p>Premium roast with bold flavour.</p>
+        <button onclick="addToCart('Highland Roast',23500)">Add to Cart</button>
+    </div>
 
-                    <p><strong>Brewing:</strong> French Press.</p>
-                     </div>
+</div>
+    <h2 class="section-title">Decaf Coffee Collection</h2>
 
-            </div>
+<div class="product-grid">
 
-        </section>
+    <div class="product-card">
+        <img src="coffee pics/coffee.png" alt="Classic Decaf">
+        <h3>Classic Decaf</h3>
+        <p><strong>Price:</strong> K18,500</p>
+        <p>Smooth flavour with no caffeine.</p>
+        <button onclick="addToCart('Classic Decaf',18500)">Add to Cart</button>
+    </div>
 
+    <div class="product-card">
+        <img src="coffee pics/coffee 2.png" alt="Morning Decaf">
+        <h3>Morning Decaf</h3>
+        <p><strong>Price:</strong> K19,000</p>
+        <p>Light roast with sweet aroma.</p>
+        <button onclick="addToCart('Morning Decaf',19000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="coffee pics/coffee 3.png" alt="Premium Decaf">
+        <h3>Premium Decaf</h3>
+        <p><strong>Price:</strong> K19,500</p>
+        <p>Rich chocolate flavour.</p>
+        <button onclick="addToCart('Premium Decaf',19500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="coffee pics/coffee 4.png" alt="House Decaf">
+        <h3>House Decaf</h3>
+        <p><strong>Price:</strong> K20,000</p>
+        <p>Balanced taste with caramel notes.</p>
+        <button onclick="addToCart('House Decaf',20000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="coffee pics/coffee 5.png" alt="Velvet Decaf">
+        <h3>Velvet Decaf</h3>
+        <p><strong>Price:</strong> K20,500</p>
+        <p>Soft and creamy finish.</p>
+        <button onclick="addToCart('Velvet Decaf',20500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="coffee pics/coffee 6.png" alt="Signature Decaf">
+        <h3>Signature Decaf</h3>
+        <p><strong>Price:</strong> K21,000</p>
+        <p>Premium smooth blend.</p>
+        <button onclick="addToCart('Signature Decaf',21000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="coffee pics/coffee 7.png" alt="Golden Decaf">
+        <h3>Golden Decaf</h3>
+        <p><strong>Price:</strong> K21,500</p>
+        <p>Sweet nutty flavour.</p>
+        <button onclick="addToCart('Golden Decaf',21500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="coffee pics/coffee 8.png" alt="Reserve Decaf">
+        <h3>Reserve Decaf</h3>
+        <p><strong>Price:</strong> K22,000</p>
+        <p>Luxury decaf with rich aroma.</p>
+        <button onclick="addToCart('Reserve Decaf',22000)">Add to Cart</button>
+    </div>
+
+</div>
         <footer class="footer">
+                <h2>Bean Boutique</h2>
+
+                <p>Fresh Coffee. Great Taste. Every Day.</p>
+
+                <div class="contact-info">
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+265991234567">+265 991 234 567</a>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:beanboutique@gmail.com">beanboutique@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Lilongwe, Malawi
+                    </p>
+
+                </div>
+
+                <p class="copyright">
+                </p>
+                <header>
+                    <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+                </header>
 
             <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
 

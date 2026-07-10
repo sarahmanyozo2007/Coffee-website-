@@ -1,128 +1,899 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brewing Equipment</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <header class="header">
-        <div class="logo">
-          <h2>Bean Boutique</h2>
-        </div>
 
-        <nav class="navbar">
-          <a href="index.html">Home</a>
-          <a href="coffee.html">Coffee</a>
-          <a href="equipment.html">Equipment</a>
-          <a href="events.html">Events</a>
-          <a href="cart.html">Cart</a>
-          <a href="offers.html">Offers</a>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brewing Equipment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <section class="equipment-page">
-        <div class="equipment-header">
-          <h1>Brewing Equipment</h1>
+<body>
+  <main>
+    <header class="header">
+      <div class="logo">
+        <h2>Bean Boutique</h2>
+      </div>
 
-          <p>Find the perfect equipment to prepare your favourite coffee.</p>
-        </div>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="coffee.html">Coffee</a>
+        <a href="equipment.html">Equipment</a>
+        <a href="events.html">Events</a>
+        <a href="cart.html">Cart</a>
+        <a href="offers.html">Offers</a>
+      </nav>
+    </header>
+    <section class="equipment-page">
+      <div class="equipment-header">
+        <h1>Brewing Equipment</h1>
 
-        <div class="equipment-wrapper">
-          <div class="equipment-card">
-            <img src="espresso-machine.jpg" alt="Espresso Machine" />
+        <p>Find the perfect equipment to prepare your favourite coffee.</p>
+      </div>
 
-            <h3>Espresso Machine</h3>
+      <div class="equipment-wrapper">
+        <div class="equipment-card">
+          <h2 class="category-title">Espresso Machines</h2>
 
-            <p><strong>Price:</strong> K450,000</p>
+          <div class="equipment-wrapper">
 
-            <p>Perfect for making rich espresso and cappuccino.</p>
+            <div class="equipment-card">
 
-            <p>
-              <strong>Usage Tip:</strong> Clean the machine after every use.
-            </p>
+              <img src="coffee pics/coffee 49.png" alt="Barista Pro Espresso Machine">
+
+              <h3>Barista Pro Espresso Machine</h3>
+
+              <p><strong>Price:</strong> K450,000</p>
+
+              <p>Professional espresso machine with rich coffee extraction.</p>
+
+              <p><strong>Usage Tip:</strong> Clean after every use.</p>
+
+              <button onclick="addToCart('Barista Pro Espresso Machine',450000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 50.png" alt="CafeMaster Espresso Machine">
+
+              <h3>CafeMaster Espresso Machine</h3>
+
+              <p><strong>Price:</strong> K480,000</p>
+
+              <p>Perfect for preparing cappuccino and latte.</p>
+
+              <p><strong>Usage Tip:</strong> Use filtered water.</p>
+
+              <button onclick="addToCart('CafeMaster Espresso Machine',480000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 51.png" alt="Classic Brew Espresso Machine">
+
+              <h3>Classic Brew Espresso Machine</h3>
+
+              <p><strong>Price:</strong> K520,000</p>
+
+              <p>Produces smooth espresso with excellent flavour.</p>
+
+              <p><strong>Usage Tip:</strong> Warm the cup before brewing.</p>
+
+              <button onclick="addToCart('Classic Brew Espresso Machine',520000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 52.png" alt="Elite Espresso Maker">
+
+              <h3>Elite Espresso Maker</h3>
+
+              <p><strong>Price:</strong> K560,000</p>
+
+              <p>Stylish machine designed for home coffee lovers.</p>
+
+              <p><strong>Usage Tip:</strong> Descale monthly.</p>
+
+              <button onclick="addToCart('Elite Espresso Maker',560000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 53.png" alt="Premium Steam Espresso Machine">
+
+              <h3>Premium Steam Espresso Machine</h3>
+
+              <p><strong>Price:</strong> K610,000</p>
+
+              <p>Powerful steam system for creamy milk foam.</p>
+
+              <p><strong>Usage Tip:</strong> Wipe the steam wand after use.</p>
+
+              <button onclick="addToCart('Premium Steam Espresso Machine',610000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 54.png" alt="Home Barista Deluxe">
+
+              <h3>Home Barista Deluxe</h3>
+
+              <p><strong>Price:</strong> K650,000</p>
+
+              <p>Designed for preparing café-quality drinks at home.</p>
+
+              <p><strong>Usage Tip:</strong> Use freshly ground beans.</p>
+
+              <button onclick="addToCart('Home Barista Deluxe',650000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 55.png" alt="CoffeeCraft Espresso Machine">
+
+              <h3>CoffeeCraft Espresso Machine</h3>
+
+              <p><strong>Price:</strong> K690,000</p>
+
+              <p>High-performance machine with adjustable settings.</p>
+
+              <p><strong>Usage Tip:</strong> Empty the drip tray regularly.</p>
+
+              <button onclick="addToCart('CoffeeCraft Espresso Machine',690000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 57.png" alt="Signature Espresso Station">
+
+              <h3>Signature Espresso Station</h3>
+
+              <p><strong>Price:</strong> K760,000</p>
+
+              <p>Premium coffee station for serious coffee enthusiasts.</p>
+
+              <p><strong>Usage Tip:</strong> Clean the filter basket daily.</p>
+
+              <button onclick="addToCart('Signature Espresso Station',760000)">
+                Add to Cart
+              </button>
+
+            </div>
+
           </div>
+          <h2 class="section-title">French Press Collection</h2>
 
-          <div class="equipment-card">
-            <img src="french-press.jpg" alt="French Press" />
+          <div class="equipment-wrapper">
 
-            <h3>French Press</h3>
+            <div class="equipment-card">
 
-            <p><strong>Price:</strong> K35,000</p>
+              <img src="coffee pics/coffee 20.png" alt="Bodum Chambord">
 
-            <p>Produces smooth and full-bodied coffee.</p>
+              <h3>Bodum Chambord</h3>
 
-            <p>
-              <strong>Usage Tip:</strong> Brew for about 4 minutes before
-              pressing.
-            </p>
+              <p><strong>Price:</strong> K35,000</p>
+
+              <p>Classic stainless steel French press.</p>
+
+              <button onclick="addToCart('Bodum Chambord',35000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 21.png" alt="Bialetti Smart Press">
+
+              <h3>Bialetti Smart Press</h3>
+
+              <p><strong>Price:</strong> K38,000</p>
+
+              <p>Modern glass coffee press.</p>
+
+              <button onclick="addToCart('Bialetti Smart Press',38000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 22.png" alt="Espro P3">
+
+              <h3>Espro P3</h3>
+
+              <p><strong>Price:</strong> K42,000</p>
+
+              <p>Double filter for smoother coffee.</p>
+
+              <button onclick="addToCart('Espro P3',42000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 23.png" alt="Sterling Press">
+
+              <h3>Sterling Press</h3>
+
+              <p><strong>Price:</strong> K37,000</p>
+
+              <p>Elegant design with heat-resistant glass.</p>
+
+              <button onclick="addToCart('Sterling Press',37000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 24.png" alt="KitchenAid Press">
+
+              <h3>KitchenAid Press</h3>
+
+              <p><strong>Price:</strong> K40,000</p>
+
+              <p>Premium French press for home use.</p>
+
+              <button onclick="addToCart('KitchenAid Press',40000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 25.png" alt="Le Creuset Press">
+
+              <h3>Le Creuset Press</h3>
+
+              <p><strong>Price:</strong> K48,000</p>
+
+              <p>Stoneware French press with stylish finish.</p>
+
+              <button onclick="addToCart('Le Creuset Press',48000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 26.png" alt="Secura Press">
+
+              <h3>Secura Stainless Press</h3>
+
+              <p><strong>Price:</strong> K43,000</p>
+
+              <p>Keeps coffee hot for longer.</p>
+
+              <button onclick="addToCart('Secura Stainless Press',43000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 27.png" alt="Coffee Gator">
+
+              <h3>Coffee Gator Press</h3>
+
+              <p><strong>Price:</strong> K46,000</p>
+
+              <p>Durable insulated French press.</p>
+
+              <button onclick="addToCart('Coffee Gator Press',46000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 28.png" alt="Stanley Press">
+
+              <h3>Stanley Adventure Press</h3>
+
+              <p><strong>Price:</strong> K52,000</p>
+
+              <p>Travel-friendly French press.</p>
+
+              <button onclick="addToCart('Stanley Adventure Press',52000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 29.png" alt="Mueller French Press">
+
+              <h3>Mueller French Press</h3>
+
+              <p><strong>Price:</strong> K44,000</p>
+
+              <p>Easy to clean stainless steel design.</p>
+
+              <button onclick="addToCart('Mueller French Press',44000)">
+                Add to Cart
+              </button>
+
+            </div>
+
+
+            <div class="equipment-card">
+
+              <img src="coffee pics/coffee 30.png" alt="Paris Press">
+
+              <h3>Paris Coffee Press</h3>
+
+              <p><strong>Price:</strong> K39,000</p>
+
+              <p>Simple and elegant coffee maker.</p>
+
+              <button onclick="addToCart('Paris Coffee Press',39000)">
+                Add to Cart
+              </button>
+
+            </div>
+
           </div>
+          <h2 class="section-title">Coffee Grinder Collection</h2>
 
-          <div class="equipment-card">
-            <img src="grinder.jpg" alt="Coffee Grinder" />
+          <div class="equipment-wrapper">
 
-            <h3>Coffee Grinder</h3>
-            <p><strong>Price:</strong> K80,000</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 31.png" alt="Baratza Encore">
+              <h3>Baratza Encore</h3>
+              <p><strong>Price:</strong> K95,000</p>
+              <p>Perfect grinder for beginners.</p>
+              <button onclick="addToCart('Baratza Encore',95000)">Add to Cart</button>
+            </div>
 
-            <p>Grinds fresh coffee beans for better flavour.</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 32.png" alt="Breville Smart Grinder">
+              <h3>Breville Smart Grinder</h3>
+              <p><strong>Price:</strong> K120,000</p>
+              <p>Digital grinder with multiple settings.</p>
+              <button onclick="addToCart('Breville Smart Grinder',120000)">Add to Cart</button>
+            </div>
 
-            <p>
-              <strong>Usage Tip:</strong> Adjust the grind size depending on
-              your brewing method.
-            </p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 33.png" alt="DeLonghi Grinder">
+              <h3>DeLonghi KG79</h3>
+              <p><strong>Price:</strong> K88,000</p>
+              <p>Compact grinder for home use.</p>
+              <button onclick="addToCart('DeLonghi KG79',88000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 34.png" alt="Krups Grinder">
+              <h3>Krups Precision</h3>
+              <p><strong>Price:</strong> K93,000</p>
+              <p>Produces even coffee grounds.</p>
+              <button onclick="addToCart('Krups Precision',93000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 35.png" alt="KitchenAid Grinder">
+              <h3>KitchenAid Burr Grinder</h3>
+              <p><strong>Price:</strong> K135,000</p>
+              <p>Premium grinder with burr technology.</p>
+              <button onclick="addToCart('KitchenAid Burr Grinder',135000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 36.png" alt="Hario Grinder">
+              <h3>Hario Mini Mill</h3>
+              <p><strong>Price:</strong> K55,000</p>
+              <p>Manual grinder for fresh coffee.</p>
+              <button onclick="addToCart('Hario Mini Mill',55000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 37.png" alt="Cuisinart Grinder">
+              <h3>Cuisinart Supreme</h3>
+              <p><strong>Price:</strong> K110,000</p>
+              <p>Fast grinder with large capacity.</p>
+              <button onclick="addToCart('Cuisinart Supreme',110000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 38.png" alt="OXO Grinder">
+              <h3>OXO Brew Grinder</h3>
+              <p><strong>Price:</strong> K118,000</p>
+              <p>Consistent grind for every brew.</p>
+              <button onclick="addToCart('OXO Brew Grinder',118000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 39.png" alt="Capresso Grinder">
+              <h3>Capresso Infinity</h3>
+              <p><strong>Price:</strong> K125,000</p>
+              <p>Professional burr coffee grinder.</p>
+              <button onclick="addToCart('Capresso Infinity',125000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 40.png" alt="Black+Decker Grinder">
+              <h3>Black+Decker Grinder</h3>
+              <p><strong>Price:</strong> K70,000</p>
+              <p>Simple grinder for everyday use.</p>
+              <button onclick="addToCart('Black+Decker Grinder',70000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 41.png" alt="Hamilton Beach Grinder">
+              <h3>Hamilton Beach Grinder</h3>
+              <p><strong>Price:</strong> K85,000</p>
+              <p>Quick grinding with stainless blades.</p>
+              <button onclick="addToCart('Hamilton Beach Grinder',85000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 42.png" alt="Wilfa Grinder">
+              <h3>Wilfa Svart Grinder</h3>
+              <p><strong>Price:</strong> K145,000</p>
+              <p>High-quality grinder for coffee lovers.</p>
+              <button onclick="addToCart('Wilfa Svart Grinder',145000)">Add to Cart</button>
+            </div>
+
           </div>
+          <h2 class="section-title">Electric Kettle Collection</h2>
 
-          <div class="equipment-card">
-            <img src="kettle.jpg" alt="Electric Kettle" />
+          <div class="equipment-wrapper">
 
-            <h3>Electric Kettle</h3>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 58.png" alt="Philips Daily Kettle">
+              <h3>Philips Daily Kettle</h3>
+              <p><strong>Price:</strong> K48,000</p>
+              <p>Fast boiling electric kettle.</p>
+              <button onclick="addToCart('Philips Daily Kettle',48000)">Add to Cart</button>
+            </div>
 
-            <p><strong>Price:</strong> K45,000</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 59.png" alt="Russell Hobbs Inspire">
+              <h3>Russell Hobbs Inspire</h3>
+              <p><strong>Price:</strong> K52,000</p>
+              <p>Modern design with rapid boil.</p>
+              <button onclick="addToCart('Russell Hobbs Inspire',52000)">Add to Cart</button>
+            </div>
 
-            <p>Boils water quickly for coffee preparation.</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 60.png" alt="Kenwood Scene">
+              <h3>Kenwood Scene</h3>
+              <p><strong>Price:</strong> K50,000</p>
+              <p>Stylish kettle for everyday use.</p>
+              <button onclick="addToCart('Kenwood Scene',50000)">Add to Cart</button>
+            </div>
 
-            <p>
-              <strong>Usage Tip:</strong> Use fresh water every time for better
-              taste.
-            </p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 61.png" alt="Bosch ComfortLine">
+              <h3>Bosch ComfortLine</h3>
+              <p><strong>Price:</strong> K56,000</p>
+              <p>Energy-saving electric kettle.</p>
+              <button onclick="addToCart('Bosch ComfortLine',56000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 62.png" alt="Morphy Richards">
+              <h3>Morphy Richards Evoke</h3>
+              <p><strong>Price:</strong> K58,000</p>
+              <p>Elegant kettle with large capacity.</p>
+              <button onclick="addToCart('Morphy Richards Evoke',58000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 63.png" alt="Black and Decker">
+              <h3>Black+Decker Rapid Boil</h3>
+              <p><strong>Price:</strong> K46,000</p>
+              <p>Quick and efficient boiling.</p>
+              <button onclick="addToCart('Black+Decker Rapid Boil',46000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 64.png" alt="Tefal Loft">
+              <h3>Tefal Loft Kettle</h3>
+              <p><strong>Price:</strong> K55,000</p>
+              <p>Modern design with auto shut-off.</p>
+              <button onclick="addToCart('Tefal Loft Kettle',55000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 65.png" alt="Breville Curve">
+              <h3>Breville Curve</h3>
+              <p><strong>Price:</strong> K62,000</p>
+              <p>Premium stainless steel kettle.</p>
+              <button onclick="addToCart('Breville Curve',62000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 66.png" alt="Russell Hobbs Luna">
+              <h3>Russell Hobbs Luna</h3>
+              <p><strong>Price:</strong> K65,000</p>
+              <p>Quiet boil technology.</p>
+              <button onclick="addToCart('Russell Hobbs Luna',65000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 67.png" alt="KitchenAid Artisan">
+              <h3>KitchenAid Artisan</h3>
+              <p><strong>Price:</strong> K90,000</p>
+              <p>Premium designer kettle.</p>
+              <button onclick="addToCart('KitchenAid Artisan',90000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 68.png" alt="Smeg Retro">
+              <h3>Smeg Retro Kettle</h3>
+              <p><strong>Price:</strong> K95,000</p>
+              <p>Vintage style with modern features.</p>
+              <button onclick="addToCart('Smeg Retro Kettle',95000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 69.png" alt="Cuisinart PerfecTemp">
+              <h3>Cuisinart PerfecTemp</h3>
+              <p><strong>Price:</strong> K88,000</p>
+              <p>Multiple temperature settings.</p>
+              <button onclick="addToCart('Cuisinart PerfecTemp',88000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 70.png" alt="Hamilton Beach Glass">
+              <h3>Hamilton Beach Glass</h3>
+              <p><strong>Price:</strong> K54,000</p>
+              <p>Glass kettle with LED lighting.</p>
+              <button onclick="addToCart('Hamilton Beach Glass',54000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 71.png" alt="Proctor Silex">
+              <h3>Proctor Silex</h3>
+              <p><strong>Price:</strong> K45,000</p>
+              <p>Affordable everyday kettle.</p>
+              <button onclick="addToCart('Proctor Silex',45000)">Add to Cart</button>
+            </div>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 73.png" alt="Bonavita Variable">
+              <h3>Bonavita Variable</h3>
+              <p><strong>Price:</strong> K82,000</p>
+              <p>Precise temperature control.</p>
+              <button onclick="addToCart('Bonavita Variable',82000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 74.png" alt="Fellow Stagg">
+              <h3>Fellow Stagg EKG</h3>
+              <p><strong>Price:</strong> K110,000</p>
+              <p>Professional pour-over kettle.</p>
+              <button onclick="addToCart('Fellow Stagg EKG',110000)">Add to Cart</button>
+            </div>
+
           </div>
+          <div class="equipment-wrapper">
 
-          <div class="equipment-card">
-            <img src="pour-over.jpg" alt="Pour Over Kit" />
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 75.png" alt="Kenwood Elegancy">
+              <h3>Kenwood Elegancy</h3>
+              <p><strong>Price:</strong> K58,000</p>
+              <p>Modern stainless steel kettle.</p>
+              <button onclick="addToCart('Kenwood Elegancy',58000)">Add to Cart</button>
+            </div>
 
-            <h3>Pour Over Kit</h3>
-            <p><strong>Price:</strong> K60,000</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 76.png" alt="Philips Viva">
+              <h3>Philips Viva</h3>
+              <p><strong>Price:</strong> K60,000</p>
+              <p>Fast boiling with auto shut-off.</p>
+              <button onclick="addToCart('Philips Viva',60000)">Add to Cart</button>
+            </div>
 
-            <p>Ideal for slow brewing and rich flavour.</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 77.png" alt="Bosch MyMoment">
+              <h3>Bosch MyMoment</h3>
+              <p><strong>Price:</strong> K62,000</p>
+              <p>Quiet and energy-saving kettle.</p>
+              <button onclick="addToCart('Bosch MyMoment',62000)">Add to Cart</button>
+            </div>
 
-            <p>
-              <strong>Usage Tip:</strong> Pour hot water slowly in circular
-              motions.
-            </p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 78.png" alt="Russell Hobbs Adventure">
+              <h3>Russell Hobbs Adventure</h3>
+              <p><strong>Price:</strong> K65,000</p>
+              <p>Durable brushed stainless finish.</p>
+              <button onclick="addToCart('Russell Hobbs Adventure',65000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 79.png" alt="Breville Luxe">
+              <h3>Breville Luxe</h3>
+              <p><strong>Price:</strong> K70,000</p>
+              <p>Premium electric kettle.</p>
+              <button onclick="addToCart('Breville Luxe',70000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 80.png" alt="Swan Nordic">
+              <h3>Swan Nordic</h3>
+              <p><strong>Price:</strong> K68,000</p>
+              <p>Beautiful wooden handle design.</p>
+              <button onclick="addToCart('Swan Nordic',68000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 81.png" alt="Mellerware">
+              <h3>Mellerware Prime</h3>
+              <p><strong>Price:</strong> K49,000</p>
+              <p>Affordable family kettle.</p>
+              <button onclick="addToCart('Mellerware Prime',49000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 82.png" alt="Taurus Verona">
+              <h3>Taurus Verona</h3>
+              <p><strong>Price:</strong> K57,000</p>
+              <p>Stylish cordless kettle.</p>
+              <button onclick="addToCart('Taurus Verona',57000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 83.png" alt="Moulinex Soleil">
+              <h3>Moulinex Soleil</h3>
+              <p><strong>Price:</strong> K64,000</p>
+              <p>Elegant kettle for every kitchen.</p>
+              <button onclick="addToCart('Moulinex Soleil',64000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 84.png" alt="Severin WK">
+              <h3>Severin WK</h3>
+              <p><strong>Price:</strong> K61,000</p>
+              <p>Simple and reliable design.</p>
+              <button onclick="addToCart('Severin WK',61000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 85.png" alt="Electrolux Create">
+              <h3>Electrolux Create</h3>
+              <p><strong>Price:</strong> K75,000</p>
+              <p>Digital temperature settings.</p>
+              <button onclick="addToCart('Electrolux Create',75000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 86.png" alt="Braun PurEase">
+              <h3>Braun PurEase</h3>
+              <p><strong>Price:</strong> K59,000</p>
+              <p>Easy-fill cordless kettle.</p>
+              <button onclick="addToCart('Braun PurEase',59000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 87.png" alt="Xiaomi Smart">
+              <h3>Xiaomi Smart Kettle</h3>
+              <p><strong>Price:</strong> K85,000</p>
+              <p>Smart temperature control.</p>
+              <button onclick="addToCart('Xiaomi Smart Kettle',85000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 88.png" alt="Havells Aqua">
+              <h3>Havells Aqua</h3>
+              <p><strong>Price:</strong> K53,000</p>
+              <p>Compact and stylish kettle.</p>
+              <button onclick="addToCart('Havells Aqua',53000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 89.png" alt="Prestige Deluxe">
+              <h3>Prestige Deluxe</h3>
+              <p><strong>Price:</strong> K55,000</p>
+              <p>Perfect for daily coffee brewing.</p>
+              <button onclick="addToCart('Prestige Deluxe',55000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 90.png" alt="Salton Classic">
+              <h3>Salton Classic</h3>
+              <p><strong>Price:</strong> K52,000</p>
+              <p>Reliable electric kettle.</p>
+              <button onclick="addToCart('Salton Classic',52000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 91.png" alt="Tower Cavaletto">
+              <h3>Tower Cavaletto</h3>
+              <p><strong>Price:</strong> K78,000</p>
+              <p>Premium designer kettle.</p>
+              <button onclick="addToCart('Tower Cavaletto',78000)">Add to Cart</button>
+            </div>
+
           </div>
+          <h2 class="section-title">Digital Coffee Scale Collection</h2>
 
-          <div class="equipment-card">
-            <img src="scale.jpg" alt="Coffee Scale" />
+          <div class="equipment-wrapper">
 
-            <h3>Digital Coffee Scale</h3>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 110.png" alt="Hario Scale">
+              <h3>Hario V60 Scale</h3>
+              <p><strong>Price:</strong> K35,000</p>
+              <p>Accurate digital coffee scale.</p>
+              <button onclick="addToCart('Hario V60 Scale',35000)">Add to Cart</button>
+            </div>
 
-            <p><strong>Price:</strong> K28,000</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 111.png" alt="Timemore Scale">
+              <h3>Timemore Black Mirror</h3>
+              <p><strong>Price:</strong> K48,000</p>
+              <p>Professional brewing scale.</p>
+              <button onclick="addToCart('Timemore Black Mirror',48000)">Add to Cart</button>
+            </div>
 
-            <p>Measures coffee and water accurately.</p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 112.png" alt="Acaia Pearl">
+              <h3>Acaia Pearl</h3>
+              <p><strong>Price:</strong> K120,000</p>
+              <p>Premium smart coffee scale.</p>
+              <button onclick="addToCart('Acaia Pearl',120000)">Add to Cart</button>
+            </div>
 
-            <p>
-              <strong>Usage Tip:</strong> Always weigh both coffee beans and
-              water for consistent results.
-            </p>
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 113.png" alt="KitchenTour">
+              <h3>KitchenTour Scale</h3>
+              <p><strong>Price:</strong> K30,000</p>
+              <p>Compact digital kitchen scale.</p>
+              <button onclick="addToCart('KitchenTour Scale',30000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 114.png" alt="Etekcity">
+              <h3>Etekcity Digital Scale</h3>
+              <p><strong>Price:</strong> K32,000</p>
+              <p>Easy-to-read LCD display.</p>
+              <button onclick="addToCart('Etekcity Digital Scale',32000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 115.png" alt="Greater Goods">
+              <h3>Greater Goods Scale</h3>
+              <p><strong>Price:</strong> K38,000</p>
+              <p>Ideal for coffee brewing.</p>
+              <button onclick="addToCart('Greater Goods Scale',38000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 116.png" alt="Brewista">
+              <h3>Brewista Smart Scale</h3>
+              <p><strong>Price:</strong> K75,000</p>
+              <p>Built-in brewing timer.</p>
+              <button onclick="addToCart('Brewista Smart Scale',75000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 117.png" alt="Fellow Tally">
+              <h3>Fellow Tally Scale</h3>
+              <p><strong>Price:</strong> K82,000</p>
+              <p>High precision coffee scale.</p>
+              <button onclick="addToCart('Fellow Tally Scale',82000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 118.png" alt="OXO Scale">
+              <h3>OXO Brew Scale</h3>
+              <p><strong>Price:</strong> K55,000</p>
+              <p>Perfect for coffee lovers.</p>
+              <button onclick="addToCart('OXO Brew Scale',55000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 119.png" alt="MiiCoffee">
+              <h3>MiiCoffee Nano Scale</h3>
+              <p><strong>Price:</strong> K68,000</p>
+              <p>Compact rechargeable scale.</p>
+              <button onclick="addToCart('MiiCoffee Nano Scale',68000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 200.png" alt="BAGAIL Scale">
+              <h3>BAGAIL Precision Scale</h3>
+              <p><strong>Price:</strong> K42,000</p>
+              <p>Fast and accurate weighing.</p>
+              <button onclick="addToCart('BAGAIL Precision Scale',42000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 201.png" alt="JoeFrex Scale">
+              <h3>JoeFrex Barista Scale</h3>
+              <p><strong>Price:</strong> K58,000</p>
+              <p>Professional espresso scale.</p>
+              <button onclick="addToCart('JoeFrex Barista Scale',58000)">Add to Cart</button>
+            </div>
+
+            <div class="equipment-card">
+              <img src="coffee pics/coffee 202.png" alt="Coffee Tech Scale">
+              <h3>Coffee Tech Scale</h3>
+              <p><strong>Price:</strong> K65,000</p>
+              <p>Digital scale with timer.</p>
+              <button onclick="addToCart('Coffee Tech Scale',65000)">Add to Cart</button>
+            </div>
+
           </div>
-        </div>
-      </section>
+          <footer class="footer">
+            <h2>Bean Boutique</h2>
 
-      <footer class="footer">
-        <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
-      </footer>
-    </main>
-  </body>
+                <p>Fresh Coffee. Great Taste. Every Day.</p>
+
+                <div class="contact-info">
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+265991234567">+265 991 234 567</a>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:beanboutique@gmail.com">beanboutique@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Lilongwe, Malawi
+                    </p>
+
+                </div>
+
+                <p class="copyright">
+                </p>
+                <header>
+                    <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+                </header>
+            <p>&copy; 2026 Bean Boutique. All Rights Reserved.</p>
+          </footer>
+          <script src="script.js"></script>
+  </main>
+</body>
+
 </html>
