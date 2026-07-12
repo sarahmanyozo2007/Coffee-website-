@@ -249,74 +249,74 @@ FOOTER
   background: #3d2518;
   margin-top: 40px;
 }
-.footer{
-    background:#3d2518;
-    color:white;
-    text-align:left;
-    padding:25px;
-    margin-top:40px;
+.footer {
+  background: #3d2518;
+  color: white;
+  text-align: left;
+  padding: 25px;
+  margin-top: 40px;
 }
-.footer{
-    background:#1c0e07;
-    color:white;
-    text-align:left;
-    padding:35px 20px;
-    margin-top:50px;
-}
-
-.footer h2{
-    margin-bottom:10px;
+.footer {
+  background: #1c0e07;
+  color: white;
+  text-align: left;
+  padding: 35px 20px;
+  margin-top: 50px;
 }
 
-.footer p{
-    margin:8px 0;
+.footer h2 {
+  margin-bottom: 10px;
 }
 
-.contact-info p{
-    margin:12px 0;
+.footer p {
+  margin: 8px 0;
 }
 
-.contact-info i{
-    color:#d9a066;
-    margin-right:10px;
-    font-size:18px;
+.contact-info p {
+  margin: 12px 0;
 }
 
-.contact-info a{
-    color:white;
-    text-decoration:none;
+.contact-info i {
+  color: #d9a066;
+  margin-right: 10px;
+  font-size: 18px;
 }
 
-.contact-info a:hover{
-    color:#d9a066;
+.contact-info a {
+  color: white;
+  text-decoration: none;
 }
 
-.social-icons{
-    margin:20px 0;
+.contact-info a:hover {
+  color: #d9a066;
 }
 
-.social-icons a{
-    display:inline-block;
-    width:45px;
-    height:45px;
-    line-height:45px;
-    margin:0 8px;
-    background:#8b5e3c;
-    color:white;
-    border-radius:50%;
-    font-size:20px;
-    transition:.3s;
+.social-icons {
+  margin: 20px 0;
 }
 
-.social-icons a:hover{
-    background:#d9a066;
-    color:#3d2518;
-    transform:translateY(-5px);
+.social-icons a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 8px;
+  background: #8b5e3c;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.3s;
 }
 
-.copyright{
-    margin-top:20px;
-    font-size:14px;
+.social-icons a:hover {
+  background: #d9a066;
+  color: #3d2518;
+  transform: translateY(-5px);
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
 }
 /*=========================
 COFFEE PAGE
@@ -438,45 +438,171 @@ COFFEE PAGE
   object-fit: cover;
   border-radius: 10px;
 }
-.section-title{
-    padding: 20px;
+.section-title {
+  padding: 20px;
 }
-  /*=========================
+/*=========================
 CART
 ==========================*/
 
-  .cart-table {
-    width: 90%;
-    margin: auto;
-    border-collapse: collapse;
-    background: white;
-    color: black;
-  }
+.cart-table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+}
 
-  .cart-table th {
-    background: #8b5e3c;
-    color: white;
-  }
-  table{
-    margin-left: auto;
-    margin-bottom: auto;
-    width: 80%;
+.cart-table th {
+  background: #8b5e3c;
+  color: white;
+}
+table {
+  margin-left: auto;
+  margin-bottom: auto;
+  width: 80%;
+}
 
-  }
+.cart-table th,
+.cart-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.cart-table tr th {
+  justify-content: space-between;
+}
 
-  .cart-table th,
-  .cart-table td {
-    padding: 15px;
-    border: 1px solid #ddd;
-    text-align: center;
-  }
-  .cart-table tr th{
-    justify-content: space-between;
-  }
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
 
-  .input-form{
-    display: flex;
-  }
+.input-form label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #e0e0e0;
+  font-size: 15px;
+}
+
+.input-form input,
+.input-form select,
+.input-form textarea {
+  padding: 14px;
+  border: 1px solid #5a3825;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  background: #2b1b12;
+  color: white;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-form input::placeholder,
+.input-form textarea::placeholder {
+  color: #999;
+}
+
+.input-form input:focus,
+.input-form select:focus,
+.input-form textarea:focus {
+  border-color: #d9a066;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217, 160, 102, 0.2);
+}
+
+.input-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/*=========================
+REGISTER FORM
+==========================*/
+
+.register-section {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1c0e07 0%, #2b1b12 50%, #1c0e07 100%);
+}
+
+.register-wrapper {
+  width: 100%;
+  max-width: 750px;
+  background: #3d2518;
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(217, 160, 102, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(217, 160, 102, 0.3);
+}
+
+.register-wrapper h2 {
+  text-align: center;
+  color: #d9a066;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.register-text {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #c0a090;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.register-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.input-form:nth-last-of-type(1),
+.input-form:nth-last-of-type(2),
+.input-form:nth-last-of-type(3) {
+  grid-column: 1 / -1;
+}
+
+.register-btn {
+  grid-column: 1 / -1;
+  padding: 16px;
+  background: linear-gradient(135deg, #d9a066 0%, #b57d52 100%);
+  color: #1c0e07;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 15px rgba(217, 160, 102, 0.3);
+}
+
+.register-btn:hover {
+  background: linear-gradient(135deg, #e8b578 0%, #c98f62 100%);
+  color: #1c0e07;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(217, 160, 102, 0.5);
+}
+
+.register-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(217, 160, 102, 0.3);
+}
 /* MOBILE */
 
 @media (max-width: 768px) {
@@ -484,84 +610,18 @@ CART
     grid-template-columns: 1fr;
   }
 
-  /*=========================
-REGISTER FORM
-==========================*/
-.register-section{
-    padding:60px 20px;
-    display:flex;
-    justify-content:center;
-}
+  /* Register form responsive */
+  .register-wrapper {
+    padding: 30px 20px;
+  }
 
-.register-wrapper{
-    width:700px;
-    background:white;
-    color:#333;
-    padding:35px;
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,.3);
-}
+  .register-form {
+    grid-template-columns: 1fr;
+  }
 
-.register-wrapper h2{
-    text-align:center;
-    color:#6f4e37;
-    margin-bottom:10px;
-}
-
-.register-text{
-    text-align:center;
-    margin-bottom:30px;
-    color:#666;
-}
-
-.register-form{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:20px;
-}
-
-.input-form{
-    display:flex;
-    flex-direction:column;
-}
-
-.input-form label{
-    margin-bottom:8px;
-    font-weight:bold;
-}
-
-.input-form input,
-.input-form select,
-.input-form textarea{
-    padding:12px;
-    border:1px solid #ccc;
-    border-radius:8px;
-    font-size:15px;
-}
-
-.input-form textarea{
-    resize:none;
-}
-
-.input-form:last-of-type{
-    grid-column:1/3;
-}
-
-.register-btn{
-    grid-column:1/3;
-    padding:14px;
-    background:#8b5e3c;
-    color:white;
-    border:none;
-    border-radius:8px;
-    font-size:16px;
-    cursor:pointer;
-    transition:.3s;
-}
-
-.register-btn:hover{
-    background:#a06b45;
-}
+  .register-wrapper h2 {
+    font-size: 24px;
+  }
   /*=========================
 CART
 ==========================*/
@@ -578,11 +638,10 @@ CART
     background: #8b5e3c;
     color: white;
   }
-  table{
+  table {
     margin-left: auto;
     margin-bottom: auto;
     width: 80%;
-
   }
 
   .cart-table th,
@@ -591,7 +650,7 @@ CART
     border: 1px solid #ddd;
     text-align: center;
   }
-  .cart-table tr th{
+  .cart-table tr th {
     justify-content: space-between;
   }
 
@@ -619,7 +678,7 @@ CART
   .button-section button:hover {
     background: #b57d52;
   }
-  .cart-wrapper{
+  .cart-wrapper {
     justify-content: space-between;
     gap: 40px;
   }
