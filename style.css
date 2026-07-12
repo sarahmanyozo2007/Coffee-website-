@@ -474,7 +474,9 @@ CART
     justify-content: space-between;
   }
 
-  .input-form
+  .input-form{
+    display: flex;
+  }
 /* MOBILE */
 
 @media (max-width: 768px) {
