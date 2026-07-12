@@ -1,13 +1,7 @@
 /*=========================
 GENERAL
-==========================*/
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+===========================
+*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #2b1b12;
@@ -447,7 +441,40 @@ COFFEE PAGE
 .section-title{
     padding: 20px;
 }
+  /*=========================
+CART
+==========================*/
 
+  .cart-table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+  }
+
+  .cart-table th {
+    background: #8b5e3c;
+    color: white;
+  }
+  table{
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 80%;
+
+  }
+
+  .cart-table th,
+  .cart-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  .cart-table tr th{
+    justify-content: space-between;
+  }
+
+  .input-form
 /* MOBILE */
 
 @media (max-width: 768px) {
